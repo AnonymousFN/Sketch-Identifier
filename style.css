@@ -1,0 +1,24 @@
+#qa{
+float: right;
+margin-right: 15px;
+}
+body{
+background-color: lime;
+}
+#as{
+padding-left: 100px;
+font-weight: bold;
+}
+label{
+font-size: 25px;
+}
+canvas{
+animation-name: da;
+animation-duration: 3s;
+animation-iteration-count:infinite ;
+margin-top:75px;
+}
+@keyframes da{
+from{box-shadow:3px 4px 100px white;}
+to{box-shadow:3px 4px 100px black;}
+}
